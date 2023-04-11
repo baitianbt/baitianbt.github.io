@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import {  zhNavbar } from "./navbar/index.js";
+import {  zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
@@ -32,7 +32,7 @@ export default hopeTheme({
 
       footer: "默认页脚",
 
-      displayFooter: true,
+      displayFooter: false,
 
       // page meta
       metaLocales: {
