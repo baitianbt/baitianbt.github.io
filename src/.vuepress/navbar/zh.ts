@@ -2,9 +2,14 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  { text: "", icon: "discover", link: "/demo/" },
+  { text: "编程语言", icon: "discover", link: "/programminglanguage/" },
+  { text: "工具", icon: "discover", link: "/tool/" },
+
+  { text: "项目实战", icon: "discover", link: "/projects/" },
+  { text: "大数据", icon: "discover", link: "/bigData/" },
+
   {
-    text: "指南",
+    text: "数据库",
     icon: "creative",
     prefix: "/guide/",
     children: [
@@ -23,8 +28,8 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "V2 文档",
+    text: "GitHub地址",
     icon: "note",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "https://github.com/baitianbt/baitianbt.github.io",
   },
 ]);
