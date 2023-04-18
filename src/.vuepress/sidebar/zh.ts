@@ -18,4 +18,13 @@ export const zhSidebar = sidebar({
     },
     "slides",
   ],
+
+  "/guide/":[
+    "",
+    {
+      
+    }
+  ]
+
+
 });

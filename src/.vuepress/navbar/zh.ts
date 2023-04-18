@@ -9,7 +9,7 @@ export const zhNavbar = navbar([
   { text: "大数据", icon: "discover", link: "/bigData/" },
 
   {
-    text: "数据库",
+    text: "guide",
     icon: "creative",
     prefix: "/guide/",
     children: [
