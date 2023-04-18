@@ -11,20 +11,10 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "文档",
+      text: "工具类",
       icon: "note",
-      prefix: "guide/",
+      prefix: "tool/",
       children: "structure",
     },
-    "slides",
-  ],
-
-  "/guide/": [
-    "",
-    {
-      
-    }
   ]
-
-
 });

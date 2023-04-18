@@ -7,26 +7,6 @@ export const zhNavbar = navbar([
 
   { text: "项目实战", icon: "discover", link: "/projects/" },
   { text: "大数据", icon: "discover", link: "/bigData/" },
-
-  {
-    text: "guide",
-    icon: "creative",
-    prefix: "/guide/",
-    children: [
-      {
-        text: "Bar",
-        icon: "creative",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "more", link: "" }],
-      },
-      {
-        text: "Foo",
-        icon: "config",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "more", link: "" }],
-      },
-    ],
-  },
   {
     text: "GitHub地址",
     icon: "note",
