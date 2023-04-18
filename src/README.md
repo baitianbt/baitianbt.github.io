@@ -19,17 +19,17 @@ features:
     details: 所有编程语言和框架的学习集合
     link: /programminglanguage/
 
- - title: 数据库
+  - title: 数据库
     icon: markdown
     details: 数据库及sql语句，数据库工具，帮助
     link: /database/
 
- - title: 基础工具
+  - title: 基础工具
     icon: markdown
     details: 基础工具，git、提升工具
     link: /tool/
 
- - title: 实战项目
+  - title: 实战项目
     icon: markdown
     details: 实战项目
     link: /projects/
