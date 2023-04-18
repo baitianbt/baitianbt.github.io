@@ -15,24 +15,29 @@ actions:
 
 features:
   - title: 编程语言及其框架
-    icon: markdown
+    icon: class
     details: 所有编程语言和框架的学习集合
     link: /programminglanguage/
 
   - title: 数据库
-    icon: markdown
+    icon: mysql
     details: 数据库及sql语句，数据库工具，帮助
     link: /database/
 
   - title: 基础工具
-    icon: markdown
+    icon: tab
     details: 基础工具，git、提升工具
     link: /tool/
 
   - title: 实战项目
-    icon: markdown
+    icon: animation
     details: 实战项目
     link: /projects/
+
+  - title: 大数据
+    icon: stack
+    details: 实战项目
+    link: /bigData/
     
 
 copyright: false
