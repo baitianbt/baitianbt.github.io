@@ -59,14 +59,20 @@ export default navbar([
       {
         text: "开源项目",
         icon: "lightbulb",
-        prefix: "bar/",
+        prefix: "open-source/",
         children: [ { text: "开源项目", icon: "ellipsis", link: "" }],
       },
       {
         text: "项目实战",
         icon: "lightbulb",
-        prefix: "foo/",
+        prefix: "program/",
         children: [ { text: "项目实战", icon: "ellipsis", link: "" }],
+      },
+      {
+        text: "MES",
+        icon: "lightbulb",
+        prefix: "mes/",
+        children: [ { text: "MES", icon: "ellipsis", link: "" }],
       },
     ],
   },
