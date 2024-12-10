@@ -1,10 +1,6 @@
 # WPF深入浅出
 
-
-
 ---
-
-
 
 ## 什么是XAML
 
@@ -16,7 +12,7 @@
 
 XAML（**Extensible Application Markup Language**）是一种基于 XML 的语言，专为描述用户界面而设计，用于构建 WPF 和其他 Microsoft 平台（如 UWP、Xamarin.Forms）的 UI。它允许以声明方式定义 UI 元素和行为，与后台代码结合实现复杂功能。
 
-------
+---
 
 ### 为什么需要 XAML？
 
@@ -45,7 +41,7 @@ XAML 提供了声明式的语法，专注于描述界面本身：
 
 XAML 能轻松支持数据绑定和 MVVM（Model-View-ViewModel）模式，为现代应用开发提供强大支持。
 
-------
+---
 
 ### XAML 的优点
 
@@ -77,7 +73,7 @@ panel.Children.Add(button2);
 grid.Children.Add(panel);
 ```
 
-------
+---
 
 #### 2. **支持丰富的功能**
 
@@ -100,7 +96,7 @@ XAML 的设计不仅限于静态界面，它还支持：
 <Button Style="{StaticResource MyButtonStyle}" Content="Styled Button"/>
 ```
 
-------
+---
 
 #### 3. **与工具高度集成**
 
@@ -108,7 +104,7 @@ XAML 的设计不仅限于静态界面，它还支持：
 - **Visual Studio** 提供 XAML 编辑器，支持智能提示和实时预览。
 - **XAML Designer**：所见即所得，降低调试 UI 的成本。
 
-------
+---
 
 #### 4. **支持动态和响应式设计**
 
@@ -117,7 +113,7 @@ XAML 支持绑定动态数据和条件逻辑，使 UI 能根据数据或事件�
 - 支持响应式布局（通过控件如 `Grid`, `StackPanel`）。
 - 适用于多平台和多设备。
 
-------
+---
 
 #### 5. **代码分离，易维护**
 
@@ -143,7 +139,7 @@ private void OnButtonClick(object sender, RoutedEventArgs e)
 }
 ```
 
-------
+---
 
 #### 6. **扩展性和复用性**
 
@@ -151,7 +147,7 @@ private void OnButtonClick(object sender, RoutedEventArgs e)
 - **控件模板化**：支持自定义控件外观（ControlTemplate）。
 - **支持资源字典**：将样式和资源集中管理。
 
-------
+---
 
 ### 总结
 
@@ -162,12 +158,7 @@ XAML 的核心优势在于其声明式、直观的界面定义方式，结合强
 ## 什么是名称空间
 
 
-
-
-
 ## 控件与布局
-
-
 
 ---
 
@@ -186,4 +177,3 @@ XAML 的核心优势在于其声明式、直观的界面定义方式，结合强
 ## 什么是模板
 
 ## 绘图和动画
-
